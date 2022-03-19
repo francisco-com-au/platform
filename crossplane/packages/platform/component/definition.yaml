@@ -2,6 +2,7 @@ apiVersion: apiextensions.crossplane.io/v1
 kind: CompositeResourceDefinition
 metadata:
   name: xcomponents.platform.io
+  namespace: crossplane-system
 spec:
   claimNames:
     kind: Component

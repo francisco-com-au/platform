@@ -2,6 +2,7 @@ apiVersion: meta.pkg.crossplane.io/v1
 kind: Configuration
 metadata:
   name: platform
+  namespace: crossplane-system
   annotations:
     company: francisco.com.au
     maintainer: Francisco Galarza <franciscogalarza@gmail.com>

@@ -2,6 +2,7 @@ apiVersion: apiextensions.crossplane.io/v1
 kind: Composition
 metadata:
   name: component
+  namespace: crossplane-system
 spec:
   compositeTypeRef:
     apiVersion: platform.io/v1alpha1
